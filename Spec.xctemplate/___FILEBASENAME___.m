@@ -7,11 +7,12 @@
 //
 
 #import "Kiwi.h"
-#import "SpecHelper.h"
+#import "<#class prefix#>SpecHelper.h"
 #import "___VARIABLE_cutClass:identifier___.h"
 
-
 SPEC_BEGIN(___FILEBASENAMEASIDENTIFIER___)
+
+__block ___VARIABLE_cutClass:identifier___ *_<#object name#>;
 
 beforeEach(^{
     [MagicalRecord setDefaultModelFromClass:[self class]];
@@ -21,6 +22,5 @@ beforeEach(^{
 afterEach(^{
     [MagicalRecord cleanUp];
 });
-
 
 SPEC_END
