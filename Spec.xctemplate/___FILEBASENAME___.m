@@ -15,7 +15,6 @@ SPEC_BEGIN(___FILEBASENAMEASIDENTIFIER___)
 __block ___VARIABLE_cutClass:identifier___ *_<#object name#>;
 
 beforeEach(^{
-    [MagicalRecord setDefaultModelFromClass:[self class]];
     [MagicalRecord setupCoreDataStackWithInMemoryStore];
 });
 
