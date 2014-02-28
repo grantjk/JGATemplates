@@ -9,11 +9,11 @@
 #import "___VARIABLE_prefix:identifier___TestHelper.h"
 #import "___VARIABLE_cutClass:identifier___.h"
 
-@interface TSNLeaderboardRootViewControllerTests : XCTestCase
+@interface ___VARIABLE_cutClass:identifier___Tests : XCTestCase
 @property (nonatomic, strong) ___VARIABLE_cutClass:identifier___ *___VARIABLE_propName:identifier___;
 @end
 
-@implementation TSNLeaderboardRootViewControllerTests
+@implementation ___VARIABLE_cutClass:identifier___Tests
 
 - (void)setUp
 {
