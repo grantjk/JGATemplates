@@ -34,14 +34,14 @@
 - (void)test<#testnamehere#>
 {
 
-  /*
-   If the same view appears different on the the iPad and the iPhone (styles / constants)
-   use the helpers `[TSNTestHelper mockDeviceAsiPhone]` and `[TSNTestHelper mockDeviceAsiPad]`
-  */
+   /*
+    If the same view appears different on the the iPad and the iPhone (styles / constants)
+    use the helpers `[TSNTestHelper mockDeviceAsiPhone]` and `[TSNTestHelper mockDeviceAsiPad]`
+   */
 
-   <# set up your view and add the data #>
+    <# set up your view and add the data #>
 
-   FBSnapshotVerifyView(self.___VARIABLE_propName:identifier___, nil);
+    FBSnapshotVerifyView(self.___VARIABLE_propName:identifier___, nil);
 }
 
 @end
